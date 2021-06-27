@@ -10,11 +10,13 @@
     ~/.Brewfile:
     ~/.zshrc:
     ~/Library/Application Support/Code/User/settings.json: vscode.json
+    ~/Library/Preferences/com.googlecode.iterm2.plist: com.googlecode.iterm2.plist
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - ./installs/brew.sh
     - ./installs/oh-my-zsh.sh
+    - ./installs/volta.sh
     - brew update
     - brew upgrade
     - brew bundle --global
