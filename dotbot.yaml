@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- clean: ["~"]
+
+- link:
+    ~/.zshrc: .zshrc
+    ~/.Brewfile: .Brewfile
+    ~/Library/Application Support/Code/User/settings.json: vscode.json
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - ./installs/brew.sh
+    - ./installs/oh-my-zsh.sh
+    - brew update
+    - brew upgrade
+    - brew bundle --global
+    - volta install node
+    - volta install trash-cli
+    - volta install fkill-cli

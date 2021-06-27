@@ -1,0 +1,24 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Panda Syntax",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.fontFamily": "Dank Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "terminal.integrated.fontSize": 13,
+
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "redhat.telemetry.enabled": false
+}
