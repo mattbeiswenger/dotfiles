@@ -4,7 +4,7 @@
 # Before pushing, we want to pull any new vscode extensions and throw them in a file
 
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-EXTENSIONS_FILE = "vscode/extensions"
+EXTENSIONS_FILE="vscode/extensions"
 
 cd "${BASEDIR}"
 code --list-extensions > "${BASEDIR}/${EXTENSIONS_FILE}"
