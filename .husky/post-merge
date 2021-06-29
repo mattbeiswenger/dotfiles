@@ -4,8 +4,4 @@
 
 # When we pull, we want to add any new extensions to vscode
 # And we want to rerun the installer
-BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-EXTENSIONS_FILE = "vscode/extensions"
 
-cd "${BASEDIR}"
-code --list-extensions > "${BASEDIR}/${EXTENSIONS_FILE}"
