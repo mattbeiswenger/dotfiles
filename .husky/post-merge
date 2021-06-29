@@ -1,7 +1,12 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+# Install extensions that aren't yet installed
+existing_extensions=( $(code --list-extensions) )
 
-# When we pull, we want to add any new extensions to vscode
-# And we want to rerun the installer
+while read extension; do
+  [[ " ${existing_extensions[@]} " =~ " ${extension} " ]] || code --install-extension $extension
+done <vscode/extensions
 
+# Run installation script
+./install
