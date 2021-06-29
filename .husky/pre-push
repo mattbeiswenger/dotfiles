@@ -1,10 +1,10 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Before pushing, we want to pull any new vscode extensions and throw them in a file
+# Save vscode extensions to file
 EXTENSIONS_FILE="vscode/extensions"
-
-cd "${BASEDIR}"
 code --list-extensions > $EXTENSIONS_FILE
+
+# Commit extensions and any new changes
 git add .
-git commit -m 'Update dotfiles'
+git commit -m 'Update dotfiles (pre-push)'
