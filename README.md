@@ -10,5 +10,3 @@ Run `./install`
 
 ### Mosaic
 [Mosaic](https://www.lightpillar.com/mosaic.html) is a window tiling tool that unfortunately doesn't use dotfiles, but does allow you to manually import and export preferences. You can import and export a `Mosaic.mosaicprefs` file to save your configurations.
-
-![Image of Mosaic preferences management feature](/images/mosaic.png)
