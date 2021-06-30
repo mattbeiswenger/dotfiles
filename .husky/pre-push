@@ -9,5 +9,5 @@ code --list-extensions > $EXTENSIONS_FILE
 git add .
 
 if !  git commit -m 'Update dotfiles (pre-push)'; then
-    git push
+    git push # Yes, I know this is not great
 fi
