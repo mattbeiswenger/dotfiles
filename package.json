@@ -5,7 +5,6 @@
     "husky": "^6.0.0"
   },
   "scripts": {
-    "prepare": "husky install",
-    "post-merge": "echo hi"
+    "setup": "husky install && chmod +x ./scripts/permissions && ./scripts/permissions && ./install"
   }
 }
