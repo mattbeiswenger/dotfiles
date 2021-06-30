@@ -15,6 +15,7 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - find . -type f -iname "*.sh" -exec chmod +x {} \; # set all *.sh files to executables
     - ./installs/brew.sh
     - ./installs/oh-my-zsh.sh
     - ./installs/volta.sh
@@ -22,6 +23,5 @@
     - brew update
     - brew upgrade
     - brew bundle --global
-    - volta install node
     - volta install trash-cli
     - volta install fkill-cli

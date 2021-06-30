@@ -1,8 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Set file permissions
-chmod +x ./scripts/permissions && ./scripts/permissions
-
-# Run installation
-./install
+# Set permissions and execute install script
+chmod +x ./install && ./install
