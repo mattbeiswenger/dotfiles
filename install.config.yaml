@@ -18,6 +18,7 @@
     - ./installs/brew.sh
     - ./installs/oh-my-zsh.sh
     - ./installs/volta.sh
+    - ./vscode/install-extensions.sh
     - brew update
     - brew upgrade
     - brew bundle --global
