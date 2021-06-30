@@ -1,3 +1,5 @@
+source aliases.sh
+
 export ZSH=$HOME/.oh-my-zsh
 export VOLTA_HOME="$HOME/.volta"
 
