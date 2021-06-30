@@ -7,4 +7,7 @@ code --list-extensions > $EXTENSIONS_FILE
 
 # Commit extensions and any new changes
 git add .
-git commit -m 'Update dotfiles (pre-push)' && git push
+
+if !  git commit -m 'Update dotfiles (pre-push)'; then
+    git push
+fi
