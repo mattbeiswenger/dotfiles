@@ -8,6 +8,6 @@ code --list-extensions > $EXTENSIONS_FILE
 # Commit extensions and any new changes
 git add .
 
-if !  git commit -m 'Update dotfiles (pre-push)'; then
+if ! git commit -m 'Update dotfiles (pre-push)'; then
     git push # Yes, I know this is not great
 fi
