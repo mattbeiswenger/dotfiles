@@ -1,6 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Run installation script
+# Make files executable
+find . -type f -iname "*.sh" -exec chmod +x {} \;
 chmod +x ./install
+
+# Run installation
 ./install
