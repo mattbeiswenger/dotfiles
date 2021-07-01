@@ -9,6 +9,7 @@ plugins=(
   docker
   git
   z
+  zsh-autosuggestions
 )
 
 eval $(thefuck --alias)

@@ -4,6 +4,7 @@ brew "mas"
 brew "thefuck"
 brew "tmux"
 brew "tree"
+brew "zsh-autosuggestions"
 
 cask "1password"
 cask "adobe-creative-cloud"
