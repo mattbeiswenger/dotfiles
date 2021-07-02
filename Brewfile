@@ -1,3 +1,6 @@
+tap "homebrew/cask-drivers"
+brew "logitech-options"
+
 brew "awscli"
 brew "bat"
 brew "mas"
