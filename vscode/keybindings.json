@@ -9,10 +9,6 @@
     "command": "-workbench.action.openGlobalKeybindings"
   },
   {
-    "key": "shift+cmd+f",
-    "command": "workbench.action.files.save"
-  },
-  {
     "key": "cmd+s",
     "command": "-workbench.action.files.save"
   },
