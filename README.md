@@ -13,3 +13,4 @@ Run `./install`
 
 ## TODO
   - [ ] Need to clone zsh-autosuggestions into oh-my-zsh plugins directory
+  - [ ] Add Java 1.8 SDK
