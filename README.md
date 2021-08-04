@@ -4,7 +4,7 @@ These configuration files are built using the [dotbot](https://github.com/anisha
 
 ## Installation
 Clone this repo to `$HOME/.dotfiles` with `git clone https://github.com/mattbeiswenger/dotfiles.git .dotfiles`
-Run `./install`
+Run `./install.sh`
 
 ## TODO
   - [ ] Need to clone zsh-autosuggestions into oh-my-zsh plugins directory
