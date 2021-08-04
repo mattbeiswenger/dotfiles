@@ -6,11 +6,6 @@ These configuration files are built using the [dotbot](https://github.com/anisha
 Clone this repo to `$HOME/.dotfiles` with `git clone https://github.com/mattbeiswenger/dotfiles.git .dotfiles`
 Run `./install`
 
-## Manual Configurations
-
-### Mosaic
-[Mosaic](https://www.lightpillar.com/mosaic.html) is a window tiling tool that unfortunately doesn't use dotfiles, but does allow you to manually import and export preferences. You can import and export a `Mosaic.mosaicprefs` file to save your configurations.
-
 ## TODO
   - [ ] Need to clone zsh-autosuggestions into oh-my-zsh plugins directory
   - [ ] Add Java 1.8 SDK
