@@ -11,6 +11,3 @@ fi
 # Install node
 volta install node
 
-# Install dependencies and trigger npm prepare lifecycle script
-npm install
-
