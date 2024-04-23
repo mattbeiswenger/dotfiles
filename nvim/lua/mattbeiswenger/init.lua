@@ -1,2 +1,2 @@
-require("mattbeiswenger.set")
+require("mattbeiswenger.core")
 require("mattbeiswenger.lazy")

@@ -1,1 +1,2 @@
-require("mattbeiswenger")
+require("mattbeiswenger.core")
+require("mattbeiswenger.lazy")
