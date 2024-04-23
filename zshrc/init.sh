@@ -6,7 +6,6 @@ plugins=(
   docker
   git
   zsh-autosuggestions
-  z
   kubectl
 )
 
