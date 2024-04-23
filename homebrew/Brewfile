@@ -1,0 +1,7 @@
+brew "ripgrep"
+brew "thefuck"
+brew "tree"
+brew "stow"
+brew "neovim"
+brew "cloc"
+brew "kubectl"
