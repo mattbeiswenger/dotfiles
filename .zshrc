@@ -1,3 +1,3 @@
-for FILE in ~/zshrc/*; do
-    source $FILE
+for file in ~/zshrc/*; do
+    source "$file"
 done
