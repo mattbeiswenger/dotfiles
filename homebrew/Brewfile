@@ -1,3 +1,5 @@
+tap "hashicorp/tap"
+
 brew "ripgrep"
 brew "thefuck"
 brew "stow"
@@ -7,3 +9,5 @@ brew "kubectl"
 brew "zoxide"
 brew "fzf"
 brew "eza"
+brew "terraform"
+brew "tmux"

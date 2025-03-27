@@ -15,11 +15,6 @@ source $ZSH/oh-my-zsh.sh
 # --- homebrew ---
 export HOMEBREW_BUNDLE_FILE="$HOME/homebrew/Brewfile"
 
-# --- bun ---
-[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
 # --- eza ---
 alias ls="eza --oneline"
 alias tree="eza --tree"
@@ -42,6 +37,7 @@ source <(kubectl completion zsh)
 # --- nvim ---
 export XDG_CONFIG_HOME="$HOME"
 alias vim="nvim"
+alias v="nvim"
 
 # --- volta ---
 export VOLTA_HOME="$HOME/.volta"
@@ -51,3 +47,6 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
+# --- terraform ---
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
