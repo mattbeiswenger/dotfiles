@@ -8,6 +8,7 @@ plugins=(
   git
   zsh-autosuggestions
   kubectl
+  mvn
 )
 
 source $ZSH/oh-my-zsh.sh
