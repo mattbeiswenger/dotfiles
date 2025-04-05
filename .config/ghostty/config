@@ -1,7 +1,8 @@
 theme = Kanagawa Dragon
 
--- Fix for alt key for zellij
--- https://github.com/ghostty-org/ghostty/discussions/3483
-macos-option-as-alt = true
-keybind = alt_left=unbind
-keybing = alt+right=unbind
+# Fix for alt key for zellij
+# https://github.com/ghostty-org/ghostty/discussions/3483
+
+macos-option-as-alt = left
+keybind = alt+left=unbind
+keybind = alt+right=unbind
