@@ -46,7 +46,6 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # --- zoxide ---
 eval "$(zoxide init zsh)"
-alias cd="z"
 
 # --- terraform ---
 autoload -U +X bashcompinit && bashcompinit
