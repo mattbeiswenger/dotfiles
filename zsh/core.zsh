@@ -34,6 +34,7 @@ export PATH="$PATH:$GOBIN"
 
 # --- kubectl ---
 source <(kubectl completion zsh)
+alias krollout='f() { kubectl rollout restart deployment/"$1" && kubectl rollout status deployment/"$1"; }; f'
 
 # --- nvim ---
 export XDG_CONFIG_HOME="$HOME"
